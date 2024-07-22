@@ -23,7 +23,18 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
+
+
+    <script src="js/contact.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   <script type="text/javascript">
+   (function(){
+    emailjs.init("BXSThWs2oH4b8I7RN");
+    })();
+    </script>
+
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
@@ -91,7 +102,7 @@
               <div class="col-lg-6">
                 <h1 class="text-black">I'm Subhash</h1>
                 <p class="lead">I'm a Student Based on Chennai</p>
-                <p><button class="btn smoothscroll btn-primary" onclick="window.open('C:\Users\Admin\subhashgit\myportfolio\assets\Resume.pdf')">Download Resume</button></p>
+                <p><button class="btn smoothscroll btn-primary" onclick="window.open('./assets/Resume.pdf')">Download Resume</button></p>
 
               </div>
             </div>
@@ -324,9 +335,7 @@
             <h2 class="section-title text-center mb-5">Contact Form</h2>
           </div>
         </div>
-        <form method="POST" class="form"  id="form">
-          <input type="hidden" name="access_key" value="cc91b5f3-9ab5-47f0-967b-ba55e0716c5d">
-
+        <form class="form"  id="form">
           <div class="row mb-4">
             <div class="form-group col-6">
               <input type="text" class="form-control" id="firstname" placeholder="First name">
@@ -356,13 +365,8 @@
 
           <div class="row">
             <div class="col-md-6">
-              <input type="submit" class="btn btn-primary" value="Send Message">
+              <button type="submit"   onclick="emailSend()"  class="btn btn-primary" value="Send Message">Send</button>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-          <div id="result"></div>
-          </div>
           </div>
         </form>
       </div>
@@ -438,7 +442,5 @@
 
   
   <script src="js/main.js"></script>
-  <script src="js/contact.js"></script>
-    
   </body>
 </html>
