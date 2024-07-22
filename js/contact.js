@@ -1,4 +1,4 @@
-function emailSend(){
+function sendmail(){
   let parms={
     name : document.getElementById("firstname").value,
     lname : document.getElementById("lastname").value,

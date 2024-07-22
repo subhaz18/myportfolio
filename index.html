@@ -352,34 +352,34 @@
         <form class="form"  id="form">
           <div class="row mb-4">
             <div class="form-group col-6">
-              <input type="text" class="form-control" id="firstname" placeholder="First name">
+              <input type="text" class="form-control" id="firstname" placeholder="First name" required>
             </div>
             <div class="form-group col-6">
-              <input type="text" class="form-control" id="lastname" placeholder="Last name">
+              <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="email" class="form-control" id="email" placeholder="Email address">
+              <input type="email" class="form-control" id="email" placeholder="Email address" required>
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="text" class="form-control" id="subject" placeholder="Subject of the message">
+              <input type="text" class="form-control" id="subject" placeholder="Subject of the message" required>
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <textarea name="" id="" cols="30" rows="10" class="form-control" id="message"  placeholder="Type your message here.."></textarea>
+              <textarea name="" cols="30" rows="10" class="form-control" id="message"  placeholder="Type your message here.." required></textarea>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-6">
-              <button type="submit" onclick="emailSend()"  class="btn btn-primary" value="Send Message">Send</button>
+              <button type="submit" onclick="sendmail()"  class="btn btn-primary" value="Send Message">Send</button>
             </div>
           </div>
         </form>
