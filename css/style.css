@@ -940,17 +940,18 @@ body:after {
         background-color:#04AA6D;
         border:none;
         color: white;
-        padding: 16px 32px;
+        padding: 14px 28px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        transition-duration: 0.4s;
+        font-size: 14px;
+        margin: 2px 1px;
+        transition-duration: 0.2s;
         cursor: pointer;
       }
 
       .button1 {
+        background-color:green;
         border-radius:12px;
       }
 
