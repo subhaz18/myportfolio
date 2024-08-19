@@ -907,49 +907,33 @@ body:after {
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
-      #clients-section{
+      #clients-section {
         text-align: center;
       }
-      .certificate-container {
+      
+      .certificate-info-upper-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        /*height: 100vh;*/ /* adjust the height to fit your needs */
       }
-      .card1 {
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        padding: 20px;
+      
+      .certificate-info-container {
         margin: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
       }
-      .card-body1 {
+      
+      @media only screen and (max-width: 768px) {
+        .certificate-info-container {
+          flex-direction: column;
+        }
+       
+      }
+      .border-box1 {
+        border: 1px solid #ddd;
         padding: 20px;
-      }
-      
-      .card-title1 {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-      
-      .card-text1 {
-        font-size: 14px;
-        color: #666;
         margin-bottom: 20px;
-      }
-      
-      .btn1 {
-        background-color: #4CAF50;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      
-      .btn1:hover {
-        background-color: #3e8e41;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
       
