@@ -864,3 +864,92 @@ body:after {
     color: #888888; }
     .footer a:hover {
       color: #000; }
+  
+      #contact-section {
+        text-align: center;
+      }
+      
+      .contact-info-upper-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .contact-info-container {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .contact-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+      
+      .email-icon {
+        width: 20px;
+        height: 20px;
+      }
+      
+      @media only screen and (max-width: 768px) {
+        .contact-info-container {
+          flex-direction: column;
+        }
+        .contact-icon {
+          margin-bottom: 10px;
+        }
+      }
+      .border-box {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      #clients-section{
+        text-align: center;
+      }
+      .certificate-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /*height: 100vh;*/ /* adjust the height to fit your needs */
+      }
+      .card1 {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .card-body1 {
+        padding: 20px;
+      }
+      
+      .card-title1 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .card-text1 {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 20px;
+      }
+      
+      .btn1 {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .btn1:hover {
+        background-color: #3e8e41;
+      }
+      
