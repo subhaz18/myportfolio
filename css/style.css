@@ -891,6 +891,10 @@ body:after {
         width: 20px;
         height: 20px;
       }
+      .linkedin-icon{
+        width: 20px;
+        height: 20px;
+      }
       
       @media only screen and (max-width: 768px) {
         .contact-info-container {
@@ -936,6 +940,23 @@ body:after {
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
-      .btn1 .btn-primary:hover{
-        background-color: #4CAF50
+      .button {
+        background-color:#04AA6D;
+        border:none;
+        color: white;
+        padding: 14px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 2px 1px;
+        transition-duration: 0.2s;
+        cursor: pointer;
       }
+
+      .button1 {
+        background-color:green;
+        border-radius:12px;
+      }
+
+      
